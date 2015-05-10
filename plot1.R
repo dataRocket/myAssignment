@@ -1,8 +1,8 @@
 source("loadData.R")
-png(filename = "plot1.png", 
+png(filename = "./plot1.png", 
     width = 480, height = 480, 
     units = "px", bg = "transparent")
-hist(subset_data$Global_active_power, 
+hist(data$Global_active_power, 
      col = "red", 
      main = "Global Active Power", 
      xlab = "Global Active Power (kilowatts)",
